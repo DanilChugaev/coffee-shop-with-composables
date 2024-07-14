@@ -8,12 +8,10 @@
     "preview": "vite preview",
     "lint": "eslint src/**/**.{ts,vue} --fix",
     "prepare": "husky install",
-    "test": "vitest --dom",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "pinia": "^2.0.34",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
