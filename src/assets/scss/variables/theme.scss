@@ -9,6 +9,40 @@
     --color-border-active: rgba(31,35,40,0.15);
     --color-link: var(--color-text);
     --color-link-hover: #053ea6;
+
+    // цвета
+    --white-color: #fdfdfd;
+    --black-color: rgb(25, 24, 24);
+    --red-color: #f67280;
+    --text-color: #495057;
+    --subtitle-color: #768898;
+    --main-bg-color: #eff3f8;
+    --button-shadow-color: rgba(24, 24, 24, 0.4);
+    --img-placeholder-color: #58a;
+
+    // размеры
+    --full-size: 100%;
+    --title-size: 18px;
+    --subtitle-size: 14px;
+    --card-width-min: 200px;
+    --card-width-max: 300px;
+    --img-height: 200px;
+
+    // отступы
+    --main-indent: 16px;
+    --h-indent: 15px;
+    --v-indent: 10px;
+
+    // разное
+    --border-radius: 6px;
+    --title-weight: 700;
+    --subtitle-weight: 300;
+    --top-elements-z-index: 10;
+    --animation-duration: 0.2s;
+
+    --note-v-indent: 5px;
+    --note-h-indent: 20px;
+    --note-indent-between-elements: 5px;
 }
 
 html.dark-mode {

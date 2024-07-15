@@ -7,7 +7,7 @@ const BASE_PATH = import.meta.env.VITE_BASE_PATH;
 
 const routes = [
   { path: `${BASE_PATH}/`, component: Feed },
-  { path: `${BASE_PATH}/home`, component: Cart },
+  { path: `${BASE_PATH}/cart`, component: Cart },
 ];
 
 const router = createRouter({

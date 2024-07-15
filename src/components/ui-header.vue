@@ -14,7 +14,7 @@ const isDark = ref(toggleDarkMode());
 
     <div class="header__links">
       <router-link :to="`${$basePath}/`">Лента</router-link>
-      <router-link :to="`${$basePath}/home`">Корзина</router-link>
+      <router-link :to="`${$basePath}/cart`">Корзина</router-link>
     </div>
 
     <div>
