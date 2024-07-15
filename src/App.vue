@@ -1,26 +1,21 @@
 <script setup lang="ts">
-import { ref, inject } from 'vue';
-
-import UiSwitch from './components/ui-switch.vue';
-
-const toggleDarkMode = inject('toggleDarkMode');
-
-const isDark = ref(toggleDarkMode());
+import UiHeader from './components/ui-header.vue';
 </script>
 
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png" />
+  <main class="main">
+    <ui-header />
 
-    <ui-switch v-model="isDark" @change="toggleDarkMode"/>
-
-    <router-link :to="`${$basePath}/`">Index</router-link>
-    <br>
-    <router-link :to="`${$basePath}/home`">Go to Home</router-link>
     <router-view></router-view>
-  </div>
+  </main>
 </template>
 
 <style lang="scss">
 @import "./assets/scss/index.scss";
+
+.main {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
 </style>

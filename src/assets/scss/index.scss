@@ -1,7 +1,8 @@
 @import "./variables/index.scss";
 
 html,
-body {
+body,
+#app {
     height: 100%;
     color: var(--color-text);
     background-color: var(--color-bg-main);
